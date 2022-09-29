@@ -1,0 +1,39 @@
+div#da-colors p {
+    text-align: center;
+    font-family: Lato,"Helvetica Neue",Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .8em;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+div#da-colors button {
+    padding: 2px;
+    margin: 2px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+div#da-colors button.da-active {
+    border-color: black;
+}
+
+.da-swatches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#da-colors img {
+    display: block;
+}
+
+.selector-wrapper {
+    display: none !important;
+}
+
+div#da-colors {
+    margin-top: 28px;
+}
